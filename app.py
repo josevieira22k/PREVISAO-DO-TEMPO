@@ -89,7 +89,7 @@ def salvar_dados(cidade, temperatura, umidade):
     elif 20 <= umidade <= 30:
         cell_umidade.fill = PatternFill(start_color="FFFF00", end_color="FFFF00", fill_type="solid")  # Amarelo
     else:
-        cell_umidade.fill = PatternFill(start_color="FFFFFF", end_color="FFFFFF", fill_type="solid")  # Sem cor para outros níveis
+        cell_umidade.fill = PatternFill(start_color="00FF00", end_color="00FF00", fill_type="solid")  # Verde para umidade acima de 30%
 
     # Estilizando a célula da umidade
     cell_umidade.font = Font(bold=False)

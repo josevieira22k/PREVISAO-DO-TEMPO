@@ -9,9 +9,13 @@ O principal objetivo do projeto é fornecer uma interface intuitiva e eficiente 
 Tecnologias Utilizadas
 
 Python : Linguagem principal para o desenvolvimento da aplicação.
+
 Tkinter : Biblioteca para interface gráfica, usada para criar janelas e botões de interação.
+
 OpenWeatherMap API : API de previsão do tempo, que fornece dados meteorológicos atualizados.
+
 Subprocesso do Chrome : Módulo para abrir e fechar automaticamente uma janela do navegador Chrome, onde a previsão é visualizada.
+
 OpenPyXL : Biblioteca para manipulação de planilhas Excel, usada para salvar e organizar os dados meteorológicos.
 
 Descrição Funcional
@@ -21,7 +25,9 @@ Entrada de Cidade : O usuário insere o nome da cidade na interface gráfica. Ca
 Consulta à API do OpenWeatherMap :
 
 A aplicação constrói uma URL de consulta com a cidade inserida e faz uma requisição HTTP.
+
 Em caso de falha na conexão ou erro de resposta, uma mensagem de erro é exibida.
+
 Quando a resposta é bem-sucedida, o programa extrai a temperatura (em graus Celsius) e a umidade relativa do ar da cidade.
 
 Visualização da Previsão no Navegador :
@@ -43,7 +49,9 @@ O campo de entrada é limpo para facilitar uma nova consulta, mantendo a aplica�
 Funcionalidades Extras
 
 Validação de Entrada : Garante que o usuário insira uma cidade antes de solicitar uma previsão.
+
 Fechamento Automático do Navegador : Reduz a necessidade de interação manual para limitar a visualização da previsão.
+
 Organização Visual na Planilha : Cada nível de umidade é colorido para facilitar a identificação de umidade muito baixa ou alta.
 
 Benefícios do Projeto
